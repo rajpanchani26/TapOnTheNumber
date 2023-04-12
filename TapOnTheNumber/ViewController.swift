@@ -19,11 +19,8 @@ class ViewController: UIViewController {
         stratButtonOultlet.layer.cornerRadius = 20
         stratButtonOultlet.layer.masksToBounds = true
         progressBar.progress = 0.0
-       
-       
     }
     
-
     @IBAction func startButtonAction(_ sender: Any) {
         
         var randomTime : Float = 0.0
